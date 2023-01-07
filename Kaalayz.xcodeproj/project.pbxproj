@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C0488F2969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */; };
+		64C048902969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */; };
+		64C048912969D6C8006DB2FA /* KaalayzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */; };
+		64C048922969D6C8006DB2FA /* KaalayzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */; };
+		64C048932969D6C8006DB2FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487F2969D6BE006DB2FA /* ContentView.swift */; };
+		64C048942969D6C8006DB2FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487F2969D6BE006DB2FA /* ContentView.swift */; };
+		64C048952969D6C8006DB2FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C048802969D6BE006DB2FA /* Persistence.swift */; };
+		64C048962969D6C8006DB2FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C048802969D6BE006DB2FA /* Persistence.swift */; };
+		64C048972969D6C8006DB2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C048812969D6C8006DB2FA /* Assets.xcassets */; };
+		64C048982969D6C8006DB2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C048812969D6C8006DB2FA /* Assets.xcassets */; };
+		64C048A22969D704006DB2FA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64C048A12969D704006DB2FA /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64C0487D2969D6BE006DB2FA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaalayzApp.swift; sourceTree = "<group>"; };
+		64C0487F2969D6BE006DB2FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C048802969D6BE006DB2FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		64C048812969D6C8006DB2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C048862969D6C8006DB2FA /* Kaalayz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaalayz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C0488C2969D6C8006DB2FA /* Kaalayz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaalayz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C0488E2969D6C8006DB2FA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		64C048A12969D704006DB2FA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64C048832969D6C8006DB2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C048892969D6C8006DB2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64C048762969D6BE006DB2FA = {
+			isa = PBXGroup;
+			children = (
+				64C048A12969D704006DB2FA /* .gitignore */,
+				64C0487B2969D6BE006DB2FA /* Shared */,
+				64C0488D2969D6C8006DB2FA /* macOS */,
+				64C048872969D6C8006DB2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64C0487B2969D6BE006DB2FA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */,
+				64C0487F2969D6BE006DB2FA /* ContentView.swift */,
+				64C048802969D6BE006DB2FA /* Persistence.swift */,
+				64C048812969D6C8006DB2FA /* Assets.xcassets */,
+				64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		64C048872969D6C8006DB2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64C048862969D6C8006DB2FA /* Kaalayz.app */,
+				64C0488C2969D6C8006DB2FA /* Kaalayz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64C0488D2969D6C8006DB2FA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				64C0488E2969D6C8006DB2FA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64C048852969D6C8006DB2FA /* Kaalayz (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C0489B2969D6C8006DB2FA /* Build configuration list for PBXNativeTarget "Kaalayz (iOS)" */;
+			buildPhases = (
+				64C048822969D6C8006DB2FA /* Sources */,
+				64C048832969D6C8006DB2FA /* Frameworks */,
+				64C048842969D6C8006DB2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kaalayz (iOS)";
+			productName = "Kaalayz (iOS)";
+			productReference = 64C048862969D6C8006DB2FA /* Kaalayz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C0488B2969D6C8006DB2FA /* Kaalayz (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C0489E2969D6C8006DB2FA /* Build configuration list for PBXNativeTarget "Kaalayz (macOS)" */;
+			buildPhases = (
+				64C048882969D6C8006DB2FA /* Sources */,
+				64C048892969D6C8006DB2FA /* Frameworks */,
+				64C0488A2969D6C8006DB2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kaalayz (macOS)";
+			productName = "Kaalayz (macOS)";
+			productReference = 64C0488C2969D6C8006DB2FA /* Kaalayz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64C048772969D6BE006DB2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					64C048852969D6C8006DB2FA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					64C0488B2969D6C8006DB2FA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 64C0487A2969D6BE006DB2FA /* Build configuration list for PBXProject "Kaalayz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64C048762969D6BE006DB2FA;
+			productRefGroup = 64C048872969D6C8006DB2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64C048852969D6C8006DB2FA /* Kaalayz (iOS) */,
+				64C0488B2969D6C8006DB2FA /* Kaalayz (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64C048842969D6C8006DB2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C048A22969D704006DB2FA /* .gitignore in Resources */,
+				64C048972969D6C8006DB2FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C0488A2969D6C8006DB2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C048982969D6C8006DB2FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64C048822969D6C8006DB2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C0488F2969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */,
+				64C048952969D6C8006DB2FA /* Persistence.swift in Sources */,
+				64C048912969D6C8006DB2FA /* KaalayzApp.swift in Sources */,
+				64C048932969D6C8006DB2FA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C048882969D6C8006DB2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C048902969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */,
+				64C048962969D6C8006DB2FA /* Persistence.swift in Sources */,
+				64C048922969D6C8006DB2FA /* KaalayzApp.swift in Sources */,
+				64C048942969D6C8006DB2FA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64C048992969D6C8006DB2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64C0489A2969D6C8006DB2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64C0489C2969D6C8006DB2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.Kaalayz;
+				PRODUCT_NAME = Kaalayz;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C0489D2969D6C8006DB2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.Kaalayz;
+				PRODUCT_NAME = Kaalayz;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64C0489F2969D6C8006DB2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.Kaalayz;
+				PRODUCT_NAME = Kaalayz;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64C048A02969D6C8006DB2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52FGDYD382;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.boogiemonster1o1.Kaalayz;
+				PRODUCT_NAME = Kaalayz;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64C0487A2969D6BE006DB2FA /* Build configuration list for PBXProject "Kaalayz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C048992969D6C8006DB2FA /* Debug */,
+				64C0489A2969D6C8006DB2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C0489B2969D6C8006DB2FA /* Build configuration list for PBXNativeTarget "Kaalayz (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C0489C2969D6C8006DB2FA /* Debug */,
+				64C0489D2969D6C8006DB2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C0489E2969D6C8006DB2FA /* Build configuration list for PBXNativeTarget "Kaalayz (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C0489F2969D6C8006DB2FA /* Debug */,
+				64C048A02969D6C8006DB2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64C0487D2969D6BE006DB2FA /* Shared.xcdatamodel */,
+			);
+			currentVersion = 64C0487D2969D6BE006DB2FA /* Shared.xcdatamodel */;
+			path = Kaalayz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64C048772969D6BE006DB2FA /* Project object */;
+}
