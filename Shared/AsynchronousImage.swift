@@ -31,7 +31,7 @@ struct AsynchronousImage: View {
         DispatchQueue.main.async {
             do {
                 if let url = self.url {
-                    wrapped.image = NSImage(data: try Data(contentsOf: self.url))
+                    wrapped.image = NSImage(data: try Data(contentsOf: url))
                 }
             } catch {
                 // no-op

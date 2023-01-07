@@ -47,19 +47,19 @@ struct ItemView: View {
                     Spacer()
                 }
                 HStack {
-                    Text("Deadline")
-                        .font(.caption)
-                        .padding(.all, 6)
-                        .foregroundColor(.gray)
-                    DatePicker("Deadline", selection: $item.deadline!)
+                    DatePicker("Deadline", selection: Binding(get: {
+                        return item.deadline!
+                    }, set: {
+                        item.deadline = $0
+                    }), displayedComponents: [.date])
                     Spacer()
                 }.padding()
                 HStack {
-                    Text("Decision")
-                        .font(.caption)
-                        .padding(.all, 6)
-                        .foregroundColor(.gray)
-                    DatePicker("Decision Date", selection: $item.decision!)
+                    DatePicker("Decision", selection: Binding(get: {
+                        return item.deadline!
+                    }, set: {
+                        item.deadline = $0
+                    }), displayedComponents: [.date])
                     Spacer()
                 }.padding()
 //                HStack {
@@ -74,8 +74,4 @@ struct ItemView: View {
             .padding(.all, 6)
         }
     }
-}
-
-fileprivate func formatDeadlineDate() {
-    
 }

@@ -15,6 +15,7 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.deadline, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
+    @State private var starredOnly = false
 
     var body: some View {
         NavigationView {
@@ -41,6 +42,21 @@ struct ContentView: View {
                 }
             }
             Text("Select an item")
+        }.navigationTitle("Kaalayz").toolbar{
+            
+            
+            Spacer()
+            Toggle(isOn: $starredOnly) {
+                if(starredOnly){
+                    Image(systemName: "star.fill")
+                } else{
+                    Image(systemName: "star")
+                }
+            }
+            Button(action:{}) {
+                Image(systemName: "plus")
+            }
+            .keyboardShortcut("n")
         }
     }
 

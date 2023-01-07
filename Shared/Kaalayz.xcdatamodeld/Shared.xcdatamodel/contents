@@ -3,7 +3,7 @@
     <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
         <attribute name="applicationStatus" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES"/>
         <attribute name="deadline" attributeType="Date" defaultDateTimeInterval="695927820" usesScalarValueType="NO"/>
-        <attribute name="decision" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="decision" attributeType="Date" defaultDateTimeInterval="695928900" usesScalarValueType="NO"/>
         <attribute name="earlyRound" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
         <attribute name="logoUrl" optional="YES" attributeType="String" defaultValueString="" allowsCloudEncryption="YES"/>
         <attribute name="name" attributeType="String" defaultValueString="Bruh"/>
