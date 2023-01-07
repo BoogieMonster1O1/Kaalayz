@@ -15,6 +15,10 @@
 		645836A32969DE0E000475E1 /* ItemNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836A12969DE0E000475E1 /* ItemNavigationLink.swift */; };
 		645836A52969E128000475E1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836A42969E128000475E1 /* ItemView.swift */; };
 		645836A62969E128000475E1 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836A42969E128000475E1 /* ItemView.swift */; };
+		645836A82969EAB9000475E1 /* NewItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836A72969EAB9000475E1 /* NewItemSheet.swift */; };
+		645836A92969EAB9000475E1 /* NewItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836A72969EAB9000475E1 /* NewItemSheet.swift */; };
+		645836AB2969EC18000475E1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836AA2969EC18000475E1 /* ViewModel.swift */; };
+		645836AC2969EC18000475E1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645836AA2969EC18000475E1 /* ViewModel.swift */; };
 		64C0488F2969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */; };
 		64C048902969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */; };
 		64C048912969D6C8006DB2FA /* KaalayzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */; };
@@ -33,6 +37,8 @@
 		6458369E2969DCF5000475E1 /* AsynchronousImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousImage.swift; sourceTree = "<group>"; };
 		645836A12969DE0E000475E1 /* ItemNavigationLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemNavigationLink.swift; sourceTree = "<group>"; };
 		645836A42969E128000475E1 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		645836A72969EAB9000475E1 /* NewItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemSheet.swift; sourceTree = "<group>"; };
+		645836AA2969EC18000475E1 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		64C0487D2969D6BE006DB2FA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		64C0487E2969D6BE006DB2FA /* KaalayzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaalayzApp.swift; sourceTree = "<group>"; };
 		64C0487F2969D6BE006DB2FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,9 +87,11 @@
 				64C0487F2969D6BE006DB2FA /* ContentView.swift */,
 				645836A42969E128000475E1 /* ItemView.swift */,
 				645836A12969DE0E000475E1 /* ItemNavigationLink.swift */,
+				645836A72969EAB9000475E1 /* NewItemSheet.swift */,
 				64C048802969D6BE006DB2FA /* Persistence.swift */,
 				64C048812969D6C8006DB2FA /* Assets.xcassets */,
 				64C0487C2969D6BE006DB2FA /* Kaalayz.xcdatamodeld */,
+				645836AA2969EC18000475E1 /* ViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -204,11 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645836AB2969EC18000475E1 /* ViewModel.swift in Sources */,
 				64C0488F2969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */,
 				645836A22969DE0E000475E1 /* ItemNavigationLink.swift in Sources */,
 				64C048952969D6C8006DB2FA /* Persistence.swift in Sources */,
 				64C048912969D6C8006DB2FA /* KaalayzApp.swift in Sources */,
 				6458369C2969DA4F000475E1 /* ApplicationStatus.swift in Sources */,
+				645836A82969EAB9000475E1 /* NewItemSheet.swift in Sources */,
 				645836A52969E128000475E1 /* ItemView.swift in Sources */,
 				64C048932969D6C8006DB2FA /* ContentView.swift in Sources */,
 				6458369F2969DCF5000475E1 /* AsynchronousImage.swift in Sources */,
@@ -219,11 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645836AC2969EC18000475E1 /* ViewModel.swift in Sources */,
 				64C048902969D6C8006DB2FA /* Kaalayz.xcdatamodeld in Sources */,
 				645836A32969DE0E000475E1 /* ItemNavigationLink.swift in Sources */,
 				64C048962969D6C8006DB2FA /* Persistence.swift in Sources */,
 				64C048922969D6C8006DB2FA /* KaalayzApp.swift in Sources */,
 				6458369D2969DA4F000475E1 /* ApplicationStatus.swift in Sources */,
+				645836A92969EAB9000475E1 /* NewItemSheet.swift in Sources */,
 				645836A62969E128000475E1 /* ItemView.swift in Sources */,
 				64C048942969D6C8006DB2FA /* ContentView.swift in Sources */,
 				645836A02969DCF5000475E1 /* AsynchronousImage.swift in Sources */,

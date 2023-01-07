@@ -19,6 +19,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: ViewModel
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -46,15 +47,21 @@ struct ContentView: View {
                 }
 #endif
                 ToolbarItem {
-                    Button(action: addItem) {
+                    Button(action: {
+                        viewModel.showNewItemScreen = true
+                    }) {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
             }
             Text("Select an item")
-        }.navigationTitle("Kaalayz").toolbar{
-            
-            
+        }
+        .sheet(isPresented: $viewModel.showNewItemScreen){
+            NewItemSheet(callback: {
+                addItem(name: $0, deadline: $1, decision: $2, logoUrl: $3, earlyRound: $4)
+            })
+        }
+        .navigationTitle("Kaalayz").toolbar{
             Spacer()
             Toggle(isOn: $starredOnly) {
                 if(starredOnly){
@@ -63,17 +70,22 @@ struct ContentView: View {
                     Image(systemName: "star")
                 }
             }
-            Button(action:{}) {
+            Button(action:{ viewModel.showNewItemScreen = true }) {
                 Image(systemName: "plus")
             }
             .keyboardShortcut("n")
         }
     }
 
-    private func addItem() {
+    private func addItem(name: String, deadline: Date, decision: Date, logoUrl: String, earlyRound: Bool) {
         withAnimation {
-//            let newItem = Item(context: viewContext)
-//            newItem.timestamp = Date()
+            let newItem = Item(context: viewContext)
+            newItem.name = name
+            newItem.starred = false
+            newItem.logoUrl = logoUrl
+            newItem.deadline = deadline
+            newItem.decision = decision
+            newItem.earlyRound = earlyRound
 
             do {
                 try viewContext.save()
