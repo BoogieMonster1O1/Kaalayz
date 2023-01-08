@@ -19,7 +19,6 @@ import SwiftUI
 
 @main
 struct KaalayzApp: App {
-    let persistenceController = PersistenceController.shared
     @StateObject private var viewModel = ViewModel()
 
     var body: some Scene {
@@ -27,7 +26,7 @@ struct KaalayzApp: App {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
             ContentView()
-                .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+                .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
                 .environmentObject(viewModel)
         }
     }

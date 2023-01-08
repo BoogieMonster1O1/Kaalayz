@@ -41,8 +41,8 @@ struct NewItemSheet: View {
                     viewModel.showNewItemScreen = false
                 }.keyboardShortcut(.cancelAction)
                 Button("Done") {
-                    viewModel.showNewItemScreen = false
                     callback(self.name, self.deadline, self.decision, self.logoUrl, self.earlyRound)
+                    viewModel.showNewItemScreen = false
                 }.keyboardShortcut(.defaultAction)
             }.padding(.trailing).padding(.bottom)
             

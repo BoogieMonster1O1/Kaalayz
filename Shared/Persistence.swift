@@ -25,7 +25,7 @@ struct PersistenceController {
         let viewContext = result.container.viewContext
         for i in 0..<10 {
             let newItem = Item(context: viewContext)
-            newItem.name = "Bruh \(i)"
+            newItem.name = "College \(i + 1)"
             newItem.earlyRound = false
             newItem.applicationStatus = ApplicationStatus.ongoing
             newItem.deadline = Date()
@@ -43,10 +43,10 @@ struct PersistenceController {
         return result
     }()
 
-    let container: NSPersistentCloudKitContainer
+    let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentCloudKitContainer(name: "Kaalayz")
+        container = NSPersistentContainer(name: "Kaalayz")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
